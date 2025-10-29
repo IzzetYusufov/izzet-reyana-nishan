@@ -6,8 +6,8 @@ import "./App.css"
 
 import FOOTER from "/FOOTER.jpg"
 import HEADER from "/HEADER.jpg"
-import LOCATION from "/Location.jpg"
 import HEART from "/heart.jpg"
+import LOCATION from "/Location.jpg"
 
 type RenderProps = {
 	days: string | number
