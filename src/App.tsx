@@ -213,7 +213,8 @@ function App() {
 				</div>
 
 				<h1 className="col-span-2 text-center font-monteCarlo text-2xl mb-2 md:py-2 md:px-8 lg:text-3xl">
-					Биз сизни сабырсызлыкьнен беклеймиз!
+					Биз сизни <br />
+					сабырсызлыкьнен беклеймиз!
 				</h1>
 				{/* <h1 className="col-span-2 mb-6 text-center font-monteCarlo text-2xl md:pb-10 md:px-8 lg:text-3xl">
 					с любовью, Иззет и Реяна
@@ -222,7 +223,7 @@ function App() {
 				<img
 					src={HEART}
 					alt="heart"
-					className="col-span-2 justify-self-center mb-6 w-10 h-10 object-top object-cover"
+					className="col-span-2 justify-self-center mb-6 w-8 h-8 object-top object-cover"
 				/>
 			</div>
 		</>
