@@ -58,35 +58,35 @@ const renderer = ({
 			</div>
 		)
 	} else {
-		// Render a countdown
+		// Render a countdown кунь 03 саат 15  00
 		return (
 			<div className="flex justify-center gap-5 md:gap-10 lg:gap-15 text-black font-ribeye mt-5">
 				<div className="flex flex-col">
 					<h1 className="flex justify-center text-2xl md:text-6xl lg:text-8xl">
 						{zeroPad(days)}
 					</h1>
-					<h2 className="text-center lg:text-4xl">ДНЕЙ</h2>
+					<h2 className="text-center lg:text-4xl uppercase">кунь</h2>
 				</div>
 
 				<div className="flex flex-col">
 					<h1 className="flex justify-center text-2xl md:text-6xl lg:text-8xl">
 						{zeroPad(hours)}
 					</h1>
-					<h2 className="text-center lg:text-4xl">ЧАСОВ</h2>
+					<h2 className="text-center lg:text-4xl uppercase">саат</h2>
 				</div>
 
 				<div className="flex flex-col">
 					<h1 className="flex justify-center text-2xl md:text-6xl lg:text-8xl">
 						{zeroPad(minutes)}
 					</h1>
-					<h2 className="text-center lg:text-4xl">МИНУТ</h2>
+					<h2 className="text-center lg:text-4xl uppercase">дакъкъа</h2>
 				</div>
 
 				<div className="flex flex-col">
 					<h2 className="flex justify-center text-2xl md:text-6xl lg:text-8xl">
 						{zeroPad(seconds)}
 					</h2>
-					<h4 className="text-center lg:text-4xl">СЕКУНД</h4>
+					<h4 className="text-center lg:text-4xl uppercase">саниеде</h4>
 				</div>
 			</div>
 		)
@@ -116,8 +116,8 @@ function App() {
 					<h1 className="opacity-10 font-extrabold text-8xl md:text-[180px] lg:text-[200px] font-rochester">
 						25
 					</h1>
-					<h1 className="absolute font-monteCarlo text-black text-[40px] md:text-[100px] lg:text-[150px] -left-1/6 top-1/6 lg:top-1/8 lg:-left-1/3">
-						Иззет
+					<h1 className="absolute font-greatVibes text-black text-[40px] md:text-[100px] lg:text-[150px] -left-1/6 top-1/6 lg:top-1/8 lg:-left-1/3">
+						Izzet
 					</h1>
 
 					<h1 className="absolute top-1/3 left-1/5 font-monteCarlo text-black text-[60px] md:text-[140px] lg:text-[160px] lg:top-1/3">
@@ -125,7 +125,7 @@ function App() {
 					</h1>
 
 					<h1 className="absolute font-monteCarlo text-black text-[50px] md:text-[100px] lg:text-[150px] bottom-1/4 -left-1/6 lg:bottom-1/4 lg:-left-1/3">
-						Реяна
+						Reyana
 					</h1>
 				</div>
 
@@ -134,10 +134,10 @@ function App() {
 				</div>
 
 				<div className="col-span-2 bg-black text-slate-100 p-5 text-center font-thin md:text-2xl md:py-10 md:px-8 lg:text-3xl lg:py-15 lg:px-10">
-					<h1 className="mb-4">ДОРОГИЕ ГОСТИ!</h1>
+					<h1 className="mb-4 uppercase">Сайгъылы мусафирлер!</h1>
 					<p>
-						С огромной радостью и любовью приглашаем Вас разделить с нами
-						трогательный и важный момент нашей жизни — день нашего нишана.
+						Буюк къуванч ве севгинен сизни омюримиздеки бу тесирли ве муим аньни
+						— бизим Нишан кунюмизни бизнен пайлашмагьа давет этемиз.
 					</p>
 				</div>
 
@@ -188,9 +188,9 @@ function App() {
 
 							<a
 								href="https://yandex.com/maps/-/CLbzzJ2w"
-								className="p-2 border border-white font-mono text-sm md:max-w-80 md:flex md:justify-center md:mx-auto md:px-6 md:py-3 md:text-2xl"
+								className="p-2 border border-white font-mono text-sm md:max-w-80 md:flex md:justify-center md:mx-auto md:px-6 md:py-3 md:text-2xl uppercase"
 							>
-								ОТКРЫТЬ КАРТУ →
+								ачыкъ харита →
 							</a>
 						</div>
 					</div>
@@ -213,11 +213,11 @@ function App() {
 				</div>
 
 				<h1 className="col-span-2 text-center font-monteCarlo text-2xl mb-2 md:py-2 md:px-8 lg:text-3xl">
-					С нетерпением ждем Вас!
+					Биз сизни сабырсызлыкьнен беклеймиз!
 				</h1>
-				<h1 className="col-span-2 mb-6 text-center font-monteCarlo text-2xl md:pb-10 md:px-8 lg:text-3xl">
+				{/* <h1 className="col-span-2 mb-6 text-center font-monteCarlo text-2xl md:pb-10 md:px-8 lg:text-3xl">
 					с любовью, Иззет и Реяна
-				</h1>
+				</h1> */}
 
 				<img
 					src={HEART}
