@@ -180,10 +180,10 @@ function App() {
 
 						<div className="flex flex-col font-monteCarlo text-2xl text-center md:justify-around md:text-3xl">
 							<div>
-								<h1>Ресторан</h1>
-								<h1 className="mb-5">Алие</h1>
+								{/* <h1>Ресторан</h1> */}
+								<h1 className="mb-5">«Алие»</h1>
 
-								<p className="mb-8">ул. Ленина, 96, Бахчисарай</p>
+								<p className="mb-8">Багъчасарай, Ленина сокъ 96</p>
 							</div>
 
 							<a
