@@ -223,7 +223,7 @@ function App() {
 				<img
 					src={HEART}
 					alt="heart"
-					className="col-span-2 justify-self-center mb-6 w-8 h-8 object-top object-cover"
+					className="col-span-2 justify-self-center mb-6 w-7 h-7 object-top object-cover"
 				/>
 			</div>
 		</>
